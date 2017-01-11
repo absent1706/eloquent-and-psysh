@@ -8,9 +8,9 @@ composer install
 ```
 
 2.
-Setup your DB credentials in `bin\psysh-with-eloquent.php`
+Setup your DB credentials in `bin\psysh.php`
 
 3.
 ```
-php bin\psysh-with-eloquent.php
+php bin\psysh.php
 ```
