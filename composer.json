@@ -1,0 +1,14 @@
+{
+    "require": {
+        "illuminate/database": "^5.3",
+        "psy/psysh": "^0.8.0",
+        "doctrine/dbal": "^2.5",
+        "nesbot/carbon": "^1.21",
+        "illuminate/events": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }    
+}
