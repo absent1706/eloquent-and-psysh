@@ -83,6 +83,11 @@ return [
                 $result[$prop->name] = $prop->getValue($obj);
             }
             return $result;
+        },
+
+        // Yii
+        'yii\db\ActiveRecord' => function($obj) {
+            return $obj->getAttributes();
         }
     ],
 ];
